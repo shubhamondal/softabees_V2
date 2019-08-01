@@ -229,7 +229,7 @@ h6 {
 }
 
 #intro p {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto 30px auto;
   color: #fff;
   font-weight: 600;
@@ -1557,7 +1557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro p {
-    width: 60%;
+    /* width: 60%; */
   }
 
   #intro .carousel-control-prev,
