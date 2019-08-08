@@ -1627,6 +1627,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #44A08D;
 }
 
-.userlike-theme-bg{
-      right: 5%!important;
+#userlike a#userlike-tab.userlike-button-big {
+    right: 5%!important;
 }
