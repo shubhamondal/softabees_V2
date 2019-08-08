@@ -9,16 +9,16 @@
       });
     }
     //Dynamic carousel load
-    var jqxhr = $.getJSON("../DynamicCorossolLoad.json", function () {
-      if(jqxhr.responseJSON.length>0)
-      {
-        $(".carousel-item").each(function (index) {
-          $(this).css("background-image", "url(" + jqxhr.responseJSON[index].url + ")"); 
-          $('#carousel_h2_'+index).text(jqxhr.responseJSON[index].h1);
-          $('#carousel_p_'+index).text(jqxhr.responseJSON[index].p);
-        });
-      }
-      })
+    // var jqxhr = $.getJSON("../DynamicCorossolLoad.json", function () {
+    //   if(jqxhr.responseJSON.length>0)
+    //   {
+    //     $(".carousel-item").each(function (index) {
+    //       $(this).css("background-image", "url(" + jqxhr.responseJSON[index].url + ")"); 
+    //       $('#carousel_h2_'+index).text(jqxhr.responseJSON[index].h1);
+    //       $('#carousel_p_'+index).text(jqxhr.responseJSON[index].p);
+    //     });
+    //   }
+    //   })
   });
 
   // Back to top button
