@@ -37,32 +37,32 @@
         <div class="container-fluid">
 
             <div id="logo" class="pull-left">
-                <h1><img src="../img/favicon.png" style="height: 45px;margin-top: -10px;" /><a href="../index.html" class="scrollto"><span
-              style="color: #e0097e;">S</span>OFT<span style="color: #80cc2c;">A</span>N<span
-              style="color: #00a4d1;">B</span>EES</a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+                <h1>
+                    <a href="../index.html" class="scrollto"><img src="../img/logo_sub_text.png"
+                            style="height: 65px;margin-top: -18px;" /></a>
+                </h1>
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class=""><a href="../index.html">Home</a></li>
-                    <li class="menu-has-children"><a href="#">Services</a>
-                        <ul>
-                            <li><a href="../pages/WebSolutions.html">Web Solutions</a></li>
-                            <li><a href="../pages/MobileApps.html">Mobile Apps</a></li>
-                            <li><a href="../pages/DataAnalytics.html">Data Analytics</a></li>
-                        </ul>
+                    <li class=""><a href="../pages/CompaniesSolution.html">Solutions for companies</a>
+                        <!-- <ul>
+                                        <li><a href="./WebSolutions.html">Web Solutions</a></li>
+                                        <li><a href="./MobileApps.html">Mobile Apps</a></li>
+                                        <li><a href="./DataAnalytics.html">Data Analytics</a></li>
+                                    </ul> -->
                     </li>
-                    <li class="menu-has-children"><a href="#">Training & Development</a>
-                        <ul>
-                            <li><a href="../pages/Students.html">Students</a></li>
-                            <li><a href="../pages/Companies.html">Companies</a></li>
-                            <!--<li><a href="../pages/StudentsCorner.html">Students corner</a></li>-->
-                        </ul>
+                    <li class="menu-active"><a href="../pages/DatascienceIndividuals.html">Data science for
+                            individuals</a>
+                        <!-- <ul>
+                                        <li><a href="./Students.html">Students</a></li>
+                                        <li><a href="./Companies.html">Companies</a></li>
+                                        <li><a href="./StudentsCorner.html">Students corner</a></li>
+                                    </ul> -->
                     </li>
                     <li><a href="../pages/about_us.html">About Us</a></li>
-                    <li class="menu-active"><a href="../pages/contact_us.html">Contact</a></li>
+                    <li><a href="../pages/contact_us.html">Contact</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
@@ -123,56 +123,61 @@
                 <div class="form">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-                     <div class="form">
-                    <div id="sendmessage">Your registration has been done. Thank you!</div>
-                    <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
+                    <div class="form">
+                        <div id="sendmessage">Your registration has been done. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <form action="" method="post" role="form" class="contactForm">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" data-rule="minlen:4"
+                                        data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" data-rule="email"
+                                        data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
                             </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="collage" class="form-control" id="collage"
+                                        placeholder="Collage Name" data-rule="minlen:4"
+                                        data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" name="coursename" id="coursename"
+                                        placeholder="Course Name" data-rule="minlen:4"
+                                        data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" name="collage" class="form-control" id="collage"
-                                    placeholder="Collage Name" data-rule="minlen:4"
-                                    data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="coursename" id="coursename"
-                                    placeholder="Course Name" data-rule="minlen:4" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
-                            </div>
-                        </div>
 
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="mobileno" id="mobileno" placeholder="Mobile No" data-rule="minlen:10"
-                                    data-msg="Please enter at least 10 chars of subject" />
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" name="mobileno" id="mobileno"
+                                        placeholder="Mobile No" data-rule="minlen:10"
+                                        data-msg="Please enter at least 10 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                        placeholder="Subject" data-rule="minlen:4"
+                                        data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
+                                    data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div>
                             </div>
-                            <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
-                                data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
-                                data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
-                </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                    </div>
                 </div>
 
             </div>
@@ -215,7 +220,7 @@
                             Flat 2K,Mounthill breeze, <br>
                             172/2 Jessore road, Micheal nagar, <br>
                             West Bengal, Kolkata 700133<br>
-                            <strong>Phone:</strong>  +91 90648 51897<br>
+                            <strong>Phone:</strong> +91 90648 51897<br>
                             <strong>Email:</strong> info@softanbees.com<br>
                         </p>
 

@@ -1630,3 +1630,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 a#userlike-tab.userlike-right {
     right: 60px!important;
 }
+
+.myAlert-top{
+    position: fixed;
+    top: 25%; 
+    right: 0%;
+    width: 30%;
+}
+
+.myAlert-bottom{
+    position: fixed;
+    bottom: 5px;
+    left:2%;
+    width: 96%;
+}
+
+div.fullscreen {
+  position: absolute;
+  width:100%; 
+  height:960px; 
+  top: 0; 
+  left: 0; 
+  background-color: lightblue;
+}
+
+.alert{
+    display: none;
+}
