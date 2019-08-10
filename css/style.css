@@ -1635,14 +1635,7 @@ a#userlike-tab.userlike-right {
     position: fixed;
     top: 25%; 
     right: 0%;
-    width: 30%;
-}
-
-.myAlert-bottom{
-    position: fixed;
-    bottom: 5px;
-    left:2%;
-    width: 96%;
+    width: 50%;
 }
 
 div.fullscreen {
